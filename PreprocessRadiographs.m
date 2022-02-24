@@ -52,6 +52,8 @@ for iteration = 1:length(files)
 
 end
 
+
+
 %% convert grayscale to rgb
 
 clear
@@ -83,6 +85,7 @@ for iteration = 1:length(files)
     clear -except [files, output_folder]
 
 end
+
 
 
 %% increase contrast histeq
